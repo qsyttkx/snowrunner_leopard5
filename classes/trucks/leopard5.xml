@@ -1,0 +1,62 @@
+<Truck>
+    <TruckData DiffLockType="Always" EngineIconMesh="env/engine_small" FuelCapacity="250" Responsiveness="0.4" SteerSpeed="0.04" BackSteerSpeed="0.04" TruckImage="leopard5_preview_pic" TruckImageSmall="leopard5_small_pic" TruckType="SCOUT">
+        <Wheels DefaultRim="rim_1" DefaultTire="offroad_1" DefaultWheelType="wheels_scout2">
+            <Wheel Pos="(1.550; 0.550; 0.880)" Location="front" SteeringAngle="30" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" />
+            <Wheel Pos="(1.550; 0.550; 0.880)" Location="front" SteeringAngle="30" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" RightSide="true" />
+            <Wheel Pos="(-1.320; 0.500; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" />
+            <Wheel Pos="(-1.320; 0.500; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" RightSide="true" />
+        </Wheels>
+        <CompatibleWheels Scale="0.36" Type="wheels_scout1" />
+        <CompatibleWheels Scale="0.40" Type="wheels_scout2" />
+        <SuspensionSocket Default="leopard5_suspension_default" Type="s_leopard5" MaxWheelRadiusWithoutSuspension="0.5" />
+        <EngineSocket Default="us_truck_leopard5_engine_0" Type="e_us_truck_old_leopard5" />
+        <GearboxSocket Default="g_truck_leopard5_default" Type="gearboxes_trucks_leopard5" />
+        <WinchUpgradeSocket Default="w_leopard5_default" IsUpgradable="true" Type="winches_scouts_leopard5" />
+        <Axles>
+            <Axle Frame="BoneAxleFront" />
+            <Axle Frame="BoneAxleRear" />
+        </Axles>
+        <SteeringRack Frame="BoneRack" FrameSteerLeft="BoneRackLeft" FrameSteerRight="BoneRackRight" RackHalfSizeZ="2" />
+        <FuelTank DamageCapacity="150" />
+        <Damage>
+            <DamageArea Type="FuelTank" Min="(-5.493; 0.8338; -0.75)" Max="(-2.093; 1.834; 0.75)" ParentFrame="BoneChassis_cdt" />
+            <DamageArea Type="Engine" Min="(0.7717; 0.826; -0.5)" Max="(2.172; 1.826; 0.5)" ParentFrame="BoneChassis_cdt" />
+        </Damage>
+        <Inventory MaxLimit="7"/>
+        <DeployCost Cost = "1"/>
+    </TruckData>
+    <PhysicsModel Mesh="trucks/leopard5">
+        <NetSync Legacy="false" />
+        <Body ModelFrame="BoneChassis_cdt" ImpactType="Truck" Mass="1750" NetSync="pv">
+            <Body ModelFrame="BoneBody_cdt" CenterOfMassOffset="(-0.5; -0.25; 0.0)" ImpactType="Truck" Mass="1550" NetSync="pv">
+                <Constraint Type="Fixed" />
+            </Body>
+        </Body>
+    </PhysicsModel>
+    <GameData Price="5700" Recallable="true" UnlockByExploration="false">
+        <CustomizationCameras>
+            <CameraPos FOV="32.0" Name="default" InterestPosition="(6.83; 1.1; 0.35)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(13.8; 1.83; -2.5)" />
+            <CameraPos FOV="32.0" Name="side_l" InterestPosition="(6.23; 1.35; 0)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(10.9; 2.35; -7.1)" />
+            <CameraPos FOV="32.0" Name="side_r" InterestPosition="(4.75; 1.25; 0)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(10.1; 2.35; 8.1)" />
+            <CameraPos FOV="32.0" Name="roof" InterestPosition="(4.98; 3.63; 0.15)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(8.7; 7.75; -1.35)" />
+            <CameraPos FOV="32.0" Name="wheels" Position="(12.2; 0.5; -4.2)" InterestPosition="(5.2; 0.5; 0.45)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" />
+            <CameraPos FOV="32.0" Name="rear" InterestPosition="(5.5; 0.85; 0)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(-1.5; 7.5; -8.0)" />
+            <CameraPos FOV="32.0" Name="addon_1" InterestPosition="(5.8; 1.2; 0)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(-3.85; 4.3; -7.2)" />
+            <CameraPos FOV="32.0" Name="side_l_sticker" Position="(4.9; 1.16; -3.093)" InterestPosition="(5.561; 1.173; -0.0)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0"/>
+            <CameraPos FOV="32.0" Name="side_r_sticker" Position="(4.9; 1.16; 3.093)" InterestPosition="(6.889; 1.173; -0.0)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0"/>
+            <CameraPos FOV="32.0" Name="capote_sticker" Position="(9.5; 4.9; -0.8)" InterestPosition="(6.659; 1.533; -0.3)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0"/>
+            <CameraPos FOV="32.0" Name="roof_sticker" Position="(7.157; 6.061; -0.4)" InterestPosition="(5.162; 1.83; -0.4)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0"/>
+        </CustomizationCameras>
+        <WinchSocket Pos="(2.487; 0.5; -0.8)" />
+        <WinchSocket Pos="(2.487; 0.5; 0.8)" />
+        <WinchSocket Pos="(-6.052; 0.5; -0.8)" />
+        <WinchSocket Pos="(-6.052; 0.5; 0.8)" />
+        <UiDesc UiDesc="Hello World" UiIcon30x30="scoutVehicleImg30" UiIcon40x40="scoutVehicleImg" UiIcon576x640="leopard5_store_pic" UiIcon576x640Bw="leopard5_store_bw_pic" UiName="BYD Leopard5" />
+        <AddonSockets >
+            <Socket Names="ScoutMetalDetector" Offset="(0.359; 3.629; 0)" ParentFrame="BoneBody_cdt" InCockpit="true">
+                <ExtraParent Offset="(-1; -1; 0)" Frame="BoneBody_cdt"/>
+                <ExtraParent Offset="(-1; -1; 0)" Frame="BoneBody_cdt" />
+            </Socket>
+        </AddonSockets>
+    </GameData>
+</Truck>
