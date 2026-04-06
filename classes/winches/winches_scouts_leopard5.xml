@@ -1,34 +1,34 @@
 <WinchVariants>
 	<Winch Name="w_leopard5_default" Length="12" StrengthMult="0.8" IsEngineIgnitionRequired="false">
-		<GameData Price="1000" UnlockByExploration="false" UnlockByRank="1">
+		<GameData Price="10" UnlockByExploration="false" UnlockByRank="1">
 			<WinchParams
 			/>
 			<UiDesc UiDesc="UI_WINCH_UPGRADE_SCOUT_DEFAULT_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_WINCH_UPGRADE_SCOUT_DEFAULT_NAME" />
 		</GameData>
 	</Winch>
 	<Winch Name="w_leopard5_ext" Length="18" StrengthMult="1.0" IsEngineIgnitionRequired="false">
-		<GameData Price="3000" UnlockByExploration="false" UnlockByRank="1">
+		<GameData Price="30" UnlockByExploration="false" UnlockByRank="1">
 			<WinchParams
 			/>
 			<UiDesc UiDesc="UI_WINCH_UPGRADE_SCOUT_EXT_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_WINCH_UPGRADE_SCOUT_EXT_NAME" />
 		</GameData>
 	</Winch>
 	<Winch Name="w_leopard5_pow" Length="14" StrengthMult="1.5" IsEngineIgnitionRequired="false">
-		<GameData Price="5000" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
+		<GameData Price="50" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 			<WinchParams
 			/>
 			<UiDesc UiDesc="UI_WINCH_UPGRADE_SCOUT_POW_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_WINCH_UPGRADE_SCOUT_POW_NAME" />
 		</GameData>
 	</Winch>
 	<Winch Name="w_leopard5_ext_pow" Length="20" StrengthMult="1.35" IsEngineIgnitionRequired="false">
-		<GameData Price="7000" UnlockByExploration="false" UnlockByRank="1">
+		<GameData Price="70" UnlockByExploration="false" UnlockByRank="1">
 			<WinchParams
 			/>
 			<UiDesc UiDesc="UI_WINCH_UPGRADE_SCOUT_EXT_POW_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_WINCH_UPGRADE_SCOUT_EXT_POW_NAME" />
 		</GameData>
 	</Winch>
 	<Winch Name="w_leopard5_offline" Length="25" StrengthMult="1.5" IsEngineIgnitionRequired="false">
-		<GameData Price="9000" UnlockByExploration="false" UnlockByRank="1">
+		<GameData Price="90" UnlockByExploration="false" UnlockByRank="1">
 			<WinchParams
 			/>
 			<UiDesc UiDesc="UI_WINCH_UPGRADE_SCOUT_OFFLINE_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_WINCH_UPGRADE_SCOUT_OFFLINE_NAME" />

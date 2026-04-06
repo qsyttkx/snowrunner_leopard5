@@ -1,12 +1,12 @@
 <Truck>
-    <TruckData DiffLockType="Always" EngineIconMesh="env/engine_small" FuelCapacity="250" Responsiveness="0.4" SteerSpeed="0.04" BackSteerSpeed="0.04" TruckImage="leopard5_preview_pic" TruckImageSmall="leopard5_small_pic" TruckType="SCOUT">
+    <TruckData DiffLockType="Always" EngineIconMesh="env/engine_small" FuelCapacity="250" Responsiveness="0.4" SteerSpeed="0.02" BackSteerSpeed="0.02" TruckImage="leopard5_preview_pic" TruckImageSmall="leopard5_small_pic" TruckType="SCOUT">
         <Wheels DefaultRim="rim_1" DefaultTire="offroad_1" DefaultWheelType="wheels_scout2">
-            <Wheel Pos="(1.550; 0.550; 0.880)" Location="front" SteeringAngle="30" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" />
-            <Wheel Pos="(1.550; 0.550; 0.880)" Location="front" SteeringAngle="30" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" RightSide="true" />
-            <Wheel Pos="(-1.320; 0.500; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" />
-            <Wheel Pos="(-1.320; 0.500; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" RightSide="true" />
+            <Wheel Pos="(1.550; 0.600; 0.880)" Location="front" SteeringAngle="35" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" />
+            <Wheel Pos="(1.550; 0.600; 0.880)" Location="front" SteeringAngle="35" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" RightSide="true" />
+            <Wheel Pos="(-1.320; 0.560; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" />
+            <Wheel Pos="(-1.320; 0.560; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" RightSide="true" />
         </Wheels>
-        <CompatibleWheels Scale="0.36" Type="wheels_scout1" />
+        <CompatibleWheels Scale="0.35" Type="wheels_scout1" />
         <CompatibleWheels Scale="0.40" Type="wheels_scout2" />
         <SuspensionSocket Default="leopard5_suspension_default" Type="s_leopard5" MaxWheelRadiusWithoutSuspension="0.5" />
         <EngineSocket Default="us_truck_leopard5_engine_0" Type="e_us_truck_old_leopard5" />
@@ -33,7 +33,41 @@
             </Body>
         </Body>
     </PhysicsModel>
-    <GameData Price="5700" Recallable="true" UnlockByExploration="false">
+
+    <ModelAttachments>
+        <StopSignals>
+            <Light AttenEnd="4" Color="(102; 1; 1)" Dir="(-1; -0.2; 0)" InnerCone="120" OuterCone="160" Pos="(-2; 1.243; 0)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 0; 0) x 0.5" ColorMultAtDay="1.2" Dir="(-1; 0; 0)" DirAngle="135" Reflections="true" Size="0.4" SizeMultAtDay="0.4" Pos="(-2; 1.02; -0.768)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 0; 0) x 0.5" ColorMultAtDay="1.2" Dir="(-1; 0; 0)" DirAngle="135" Reflections="true" Size="0.4" SizeMultAtDay="0.4" Pos="(-2; 1.02; 0.768)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 0; 0) x 0.5" ColorMultAtDay="1.2" Dir="(-1; 0; 0)" DirAngle="135" Reflections="true" Size="0.4" SizeMultAtDay="0.4" Pos="(-2; 1.15; -0.768)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 0; 0) x 0.5" ColorMultAtDay="1.2" Dir="(-1; 0; 0)" DirAngle="135" Reflections="true" Size="0.4" SizeMultAtDay="0.4" Pos="(-2; 1.15; 0.768)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="4" Color="g(255; 0; 0) x 0.5" ColorMultAtDay="0.5" Dir="(-1; 0; 0)" DirAngle="135" Reflections="true" Size="0.2" SizeMultAtDay="0.4" Pos="(-1.88; 1.90; 0)" ParentFrame="BoneChassis_cdt" />
+        </StopSignals>
+        <Ignition>
+            <Light AttenEnd="4" Color="g(255; 186; 112) x 2" Dir="(1; -0.3; 0)" InnerCone="20" OuterCone="160" Pos="(2.3; 1.065; 0.600)" ParentFrame="BoneChassis_cdt" />
+            <Light AttenEnd="4" Color="g(255; 186; 112) x 2" Dir="(1; -0.3; 0)" InnerCone="20" OuterCone="160" Pos="(2.3; 1.065; -0.600)" ParentFrame="BoneChassis_cdt" />
+            <Light AttenEnd="5" Color="g(128; 0; 0)" Dir="(-1; -0.2; 0)" InnerCone="20" OuterCone="160" Pos="(-2; 1; 0)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.4" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="90" Size="0.6" Pos="(2.3; 1.065; 0.600)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.4" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="90" Size="0.6" Pos="(2.3; 1.065; -0.600)" ParentFrame="BoneChassis_cdt" />
+            <!-- <Flare AspectRatio="0.6" Color="g(169; 0; 0) x 1" ColorMultAtDay="0.5" Dir="(-1; 0; 0)" DirAngle="90" Size="1.2" Pos="(-1.98; 1.08; -0.768)" ParentFrame="BoneChassis_cdt" /> -->
+            <!-- <Flare AspectRatio="0.6" Color="g(169; 0; 0) x 1" ColorMultAtDay="0.5" Dir="(-1; 0; 0)" DirAngle="90" Size="1.2" Pos="(-1.98; 1.08; 0.768)" ParentFrame="BoneChassis_cdt" /> -->
+        </Ignition>
+        <HeadLight>
+            <Model Dir="(1; -0.1; 0)" Mesh="env/light_ray" Org="(2.27; 1.065; -0.726)" ParentFrame="BoneChassis_cdt" />
+            <Model Dir="(1; -0.1; 0)" Mesh="env/light_ray" Org="(2.27; 1.065; 0.726)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 1.0" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 1.0" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="4.0" Color="g(220; 255; 255) x 0.6" ColorMultAtDay="0.1" Dir="(1; 0; 0)" DirAngle="45" Size="0.4" Texture="sfx/flare_line__s_d.tga" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="4.0" Color="g(220; 255; 255) x 0.6" ColorMultAtDay="0.1" Dir="(1; 0; 0)" DirAngle="45" Size="0.4" Texture="sfx/flare_line__s_d.tga" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
+        </HeadLight>
+        <ReverseSignals>
+            <Light Pos="(-2.2; 0.6; -0.60)" AttenEnd="12" Color="(102; 102; 102)" Dir="(-1; -0.3; 0)" InnerCone="120" OuterCone="160" />
+            <Flare Size="0.4" Color="g(240; 230; 220) x 0.6" DirAngle="135" Pos="(-2.1; 0.6; -0.60)" AspectRatio="1.4" ColorMultAtDay="0.55" Dir="(-1; 0; 0)" Reflections="true" SizeMultAtDay="0.3" />
+            <Flare Color="g(220; 220; 255) x 0.05" Size="0.4" Dir="(-1; 0; 0)" Pos="(-2.1; 0.6; -0.60)" AspectRatio="4.0" ColorMultAtDay="0" DirAngle="45" Texture="sfx/flare_line__s_d.tga" />
+        </ReverseSignals>
+    </ModelAttachments>
+    <HeadLight AttenEnd="55" AttenStart="-20" Color="g(255; 212; 154) x 6.5" Dir="(1; -0.2; 0)" InnerCone="0" OuterCone="80" Pos="(2.27; 0.928; 0)" ParentFrame="BoneChassis_cdt" />
+    <GameData Price="57" Recallable="true" UnlockByExploration="false">
         <CustomizationCameras>
             <CameraPos FOV="32.0" Name="default" InterestPosition="(6.83; 1.1; 0.35)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(13.8; 1.83; -2.5)" />
             <CameraPos FOV="32.0" Name="side_l" InterestPosition="(6.23; 1.35; 0)" MaxXRotation="0" MaxYRotation="0" MaxZoom="0" Position="(10.9; 2.35; -7.1)" />

@@ -1,19 +1,19 @@
 <_templates Include="trucks"/>
 <EngineVariants>
 	<Engine CriticalDamageThreshold="0.55" DamageCapacity="160" DamagedConsumptionModifier="1.5" FuelConsumption="4.6" Name="us_truck_leopard5_engine_0" Torque="100000" BrakesDelay="0.47" EngineResponsiveness="0.018" MaxDeltaAngVel="0.015" DamagedMinTorqueMultiplier="1.0" DamagedMaxTorqueMultiplier="0.65">
-		<GameData Price="1000" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
+		<GameData Price="10" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 			<UiDesc UiDesc="UI_ENGINE_US_TRUCK_OLD_0_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_ENGINE_US_TRUCK_OLD_0_NAME" />
 		</GameData>
 	</Engine>
 
 	<Engine CriticalDamageThreshold="0.57" DamageCapacity="180" DamagedConsumptionModifier="1.6" FuelConsumption="5.0" Name="us_truck_leopard5_engine_1" Torque="120000" BrakesDelay="0.63" EngineResponsiveness="0.016" MaxDeltaAngVel="0.0175" DamagedMinTorqueMultiplier="1.0" DamagedMaxTorqueMultiplier="0.7">
-		<GameData Price="3000" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
+		<GameData Price="30" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 
 			<UiDesc UiDesc="UI_ENGINE_US_SCOUT_LOADSTAR_1700_1_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_ENGINE_US_TRUCK_OLD_1_NAME" />
 		</GameData>
 	</Engine>
 	<Engine CriticalDamageThreshold="0.65" DamageCapacity="100" DamagedConsumptionModifier="1.85" FuelConsumption="5.3" Name="us_truck_leopard5_engine_2" Torque="140000" BrakesDelay="0.36" EngineResponsiveness="0.028" MaxDeltaAngVel="0.0225" DamagedMinTorqueMultiplier="1.0" DamagedMaxTorqueMultiplier="0.55">
-		<GameData Price="5000" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
+		<GameData Price="50" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 			<UiDesc UiDesc="UI_ENGINE_US_SCOUT_LOADSTAR_1700_2_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_ENGINE_US_TRUCK_MODERN_0_NAME" />
 		</GameData>
 	</Engine>

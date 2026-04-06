@@ -1,4 +1,4 @@
 <CombineXMesh>
-    <Material AlbedoMap="trucks/leopard5_body__d.tga" Name="body"/>
+    <Material AlbedoMap="trucks/leopard5_body__d.tga" EmissiveMap="trucks/leopard5_body__em_d.tga" Name="body"/>
     <Material AlbedoMap="trucks/leopard5_chassis__d.tga" Name="chassis"/>
 </CombineXMesh>
