@@ -1,58 +1,16 @@
 <_templates Include="trucks"/>
 <GearboxVariants>
-	<Gearbox AWDConsumptionModifier="1.55" CriticalDamageThreshold="0.5" DamageCapacity="150" DamagedConsumptionModifier="1.6" FuelConsumption="2.6" IdleFuelModifier="0.15" Name="g_truck_leopard5_default" MinBreakFreq="0.0" MaxBreakFreq="15.0">
-		<ReverseGear AngVel="1.5" FuelModifier="1.1" />
-		<HighGear AngVel="7.5" FuelModifier="1.12" />
-		<Gear AngVel="2.0" FuelModifier="1.7" />
-		<Gear AngVel="4.0" FuelModifier="1.5" />
-		<Gear AngVel="7.0" FuelModifier="1.3" />
+	<Gearbox AWDConsumptionModifier="1.3" CriticalDamageThreshold="0.5" DamageCapacity="150" DamagedConsumptionModifier="1.6" FuelConsumption="2.6" IdleFuelModifier="0.1" Name="g_truck_leopard5_default" MinBreakFreq="0.0" MaxBreakFreq="15.0">
+		<ReverseGear AngVel="1.5" FuelModifier="1.0" />
+		<HighGear AngVel="15" FuelModifier="1.12" />
+		<Gear AngVel="2.0" FuelModifier="1.0" />
+		<Gear AngVel="4.0" FuelModifier="1.0" />
+		<Gear AngVel="7.0" FuelModifier="1.0" />
 		<Gear AngVel="10.0" FuelModifier="1.1" />
-		<Gear AngVel="13.5" FuelModifier="0.9" />
+		<Gear AngVel="13.5" FuelModifier="1.1" />
 		<GameData Price="10" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
-			<GearboxParams IsHighGearExists="false" IsLowerGearExists="true" IsLowerPlusGearExists="false" IsLowerMinusGearExists="false" />
-			<UiDesc UiDesc="UI_GEARBOX_DEFAULT_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_GEARBOX_DEFAULT_NAME" />
-		</GameData>
-		<GearboxPenaltiesSettings _template="Common"/>
-	</Gearbox>
-	<Gearbox AWDConsumptionModifier="1.4" CriticalDamageThreshold="0.62" DamageCapacity="130" DamagedConsumptionModifier="1.5" FuelConsumption="2.4" IdleFuelModifier="0.1" Name="g_truck_leopard5_highrange" MinBreakFreq="0.0" MaxBreakFreq="20.0">
-		<ReverseGear AngVel="1.0" FuelModifier="1.0" />
-		<HighGear AngVel="9.0" FuelModifier="1.07" />
-		<Gear AngVel="2.0" FuelModifier="1.8" />
-		<Gear AngVel="3.5" FuelModifier="1.6" />
-		<Gear AngVel="6.5" FuelModifier="1.4" />
-		<Gear AngVel="11.0" FuelModifier="1.2" />
-		<Gear AngVel="14.0" FuelModifier="1.05" />
-		<Gear AngVel="18.0" FuelModifier="0.9" />
-		<GameData Price="30" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 			<GearboxParams IsHighGearExists="true" IsLowerGearExists="true" IsLowerPlusGearExists="false" IsLowerMinusGearExists="false" />
-			<UiDesc UiDesc="UI_GEARBOX_HIGHRANGE_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_GEARBOX_HIGHRANGE_NAME" />
-		</GameData>
-		<GearboxPenaltiesSettings _template="Common"/>
-	</Gearbox>
-	<Gearbox AWDConsumptionModifier="1.8" CriticalDamageThreshold="0.5" DamageCapacity="170" DamagedConsumptionModifier="1.7" FuelConsumption="2.9" IdleFuelModifier="0.25" Name="g_truck_leopard5_offroad" MinBreakFreq="0.0" MaxBreakFreq="25.0">
-		<ReverseGear AngVel="0.5" FuelModifier="0.9" />
-		<HighGear AngVel="6.5" FuelModifier="1.18" />
-		<Gear AngVel="3.0" FuelModifier="1.6" />
-		<Gear AngVel="5.0" FuelModifier="1.4" />
-		<Gear AngVel="8.5" FuelModifier="1.25" />
-		<Gear AngVel="13.0" FuelModifier="1.1" />
-		<GameData Price="50" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
-			<GearboxParams IsHighGearExists="true" IsLowerGearExists="true" IsLowerPlusGearExists="true" IsLowerMinusGearExists="true" />
-			<UiDesc UiDesc="UI_GEARBOX_OFFROAD_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_GEARBOX_OFFROAD_NAME" />
-		</GameData>
-		<GearboxPenaltiesSettings _template="Common"/>
-	</Gearbox>
-	<Gearbox AWDConsumptionModifier="1.65" CriticalDamageThreshold="0.52" DamageCapacity="160" DamagedConsumptionModifier="1.6" FuelConsumption="2.75" IdleFuelModifier="0.25" Name="g_truck_leopard5_finetune" MinBreakFreq="0.0" MaxBreakFreq="30.0">
-		<ReverseGear AngVel="0.7" FuelModifier="0.9" />
-		<HighGear AngVel="8.0" FuelModifier="1.15" />
-		<Gear AngVel="2.0" FuelModifier="1.7" />
-		<Gear AngVel="4.0" FuelModifier="1.5" />
-		<Gear AngVel="7.0" FuelModifier="1.3" />
-		<Gear AngVel="10.0" FuelModifier="1.15" />
-		<Gear AngVel="13.0" FuelModifier="1.0" />
-		<GameData Price="70" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
-			<GearboxParams IsHighGearExists="true" IsLowerGearExists="true" IsLowerPlusGearExists="true" IsLowerMinusGearExists="true" IsManualLowGear="true" />
-			<UiDesc UiDesc="UI_GEARBOX_TRUCK_FINETUNE_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_GEARBOX_TRUCK_FINETUNE_NAME" />
+			<UiDesc UiDesc="UI_GEARBOX_DEFAULT_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_GEARBOX_DEFAULT_NAME" />
 		</GameData>
 		<GearboxPenaltiesSettings _template="Common"/>
 	</Gearbox>

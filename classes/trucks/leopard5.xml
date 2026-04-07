@@ -47,14 +47,14 @@
             <Light AttenEnd="4" Color="g(255; 186; 112) x 1" Dir="(1; -0.3; 0)" InnerCone="20" OuterCone="160" Pos="(2.29; 1.065; 0.600)" ParentFrame="BoneChassis_cdt" />
             <Light AttenEnd="4" Color="g(255; 186; 112) x 1" Dir="(1; -0.3; 0)" InnerCone="20" OuterCone="160" Pos="(2.29; 1.065; -0.600)" ParentFrame="BoneChassis_cdt" />
             <Light AttenEnd="5" Color="g(128; 0; 0)" Dir="(-1; -0.2; 0)" InnerCone="20" OuterCone="160" Pos="(-2; 1; 0)" ParentFrame="BoneChassis_cdt" />
-            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.4" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="90" Size="0.6" Pos="(2.29; 1.065; 0.600)" ParentFrame="BoneChassis_cdt" />
-            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.4" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="90" Size="0.6" Pos="(2.29; 1.065; -0.600)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.2" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="90" Size="0.6" Pos="(2.29; 1.065; 0.600)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.2" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="90" Size="0.6" Pos="(2.29; 1.065; -0.600)" ParentFrame="BoneChassis_cdt" />
         </Ignition>
         <HeadLight>
             <Model Dir="(1; -0.1; 0)" Mesh="env/light_ray" Org="(2.27; 1.065; -0.726)" ParentFrame="BoneChassis_cdt" />
             <Model Dir="(1; -0.1; 0)" Mesh="env/light_ray" Org="(2.27; 1.065; 0.726)" ParentFrame="BoneChassis_cdt" />
-            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 1.0" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
-            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 1.0" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.6" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.6" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
             <Flare AspectRatio="2.0" Color="g(220; 255; 255) x 0.3" ColorMultAtDay="0.1" Dir="(1; 0; 0)" DirAngle="45" Size="0.4" Texture="sfx/flare_line__s_d.tga" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
             <Flare AspectRatio="2.0" Color="g(220; 255; 255) x 0.3" ColorMultAtDay="0.1" Dir="(1; 0; 0)" DirAngle="45" Size="0.4" Texture="sfx/flare_line__s_d.tga" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
         </HeadLight>
@@ -84,7 +84,7 @@
         <WinchSocket Pos="(-2.037; 0.644; -0.449)" />
         <WinchSocket Pos="(-2.037; 0.644; 0.449)" />
         <WinchSocket Pos="(-2.037; 0.509; 0.0)" />
-        <UiDesc UiDesc="Hello World" UiIcon30x30="scoutVehicleImg30" UiIcon40x40="scoutVehicleImg" UiIcon576x640="leopard5_store_pic" UiIcon576x640Bw="leopard5_store_bw_pic" UiName="BYD Leopard5" />
+        <UiDesc UiDesc="Bring You Money" UiIcon30x30="scoutVehicleImg30" UiIcon40x40="scoutVehicleImg" UiIcon576x640="leopard5_store_pic" UiIcon576x640Bw="leopard5_store_bw_pic" UiName="BYD Leopard5" />
         <AddonSockets >
             <Socket Names="ScoutMetalDetector" Offset="(0.359; 3.629; 0)" ParentFrame="BoneBody_cdt" InCockpit="true">
                 <ExtraParent Offset="(-1; -1; 0)" Frame="BoneBody_cdt"/>
