@@ -1,10 +1,10 @@
 <Truck>
     <TruckData DiffLockType="Always" EngineIconMesh="env/engine_small" FuelCapacity="250" Responsiveness="0.4" SteerSpeed="0.02" BackSteerSpeed="0.02" TruckImage="leopard5_preview_pic" TruckImageSmall="leopard5_small_pic" TruckType="SCOUT">
         <Wheels DefaultRim="rim_1" DefaultTire="offroad_1" DefaultWheelType="wheels_scout2">
-            <Wheel Pos="(1.550; 0.600; 0.880)" Location="front" SteeringAngle="35" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" />
-            <Wheel Pos="(1.550; 0.600; 0.880)" Location="front" SteeringAngle="35" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" RightSide="true" />
-            <Wheel Pos="(-1.320; 0.560; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" />
-            <Wheel Pos="(-1.320; 0.560; 0.880)" ConnectedToHandbrake="true" Location="rear" Torque="default" RightSide="true" />
+            <Wheel Pos="(1.550; 0.600; 0.860)" Location="front" SteeringAngle="35" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" />
+            <Wheel Pos="(1.550; 0.600; 0.860)" Location="front" SteeringAngle="35" SteeringCastor="3" SteeringJointOffset="0.12" Torque="full" ParentFrame="BoneBody_cdt" RightSide="true" />
+            <Wheel Pos="(-1.320; 0.560; 0.860)" ConnectedToHandbrake="true" Location="rear" Torque="default" />
+            <Wheel Pos="(-1.320; 0.560; 0.860)" ConnectedToHandbrake="true" Location="rear" Torque="default" RightSide="true" />
         </Wheels>
         <CompatibleWheels Scale="0.35" Type="wheels_scout1" />
         <CompatibleWheels Scale="0.40" Type="wheels_scout2" />
@@ -53,8 +53,8 @@
         <HeadLight>
             <Model Dir="(1; -0.1; 0)" Mesh="env/light_ray" Org="(2.27; 1.065; -0.726)" ParentFrame="BoneChassis_cdt" />
             <Model Dir="(1; -0.1; 0)" Mesh="env/light_ray" Org="(2.27; 1.065; 0.726)" ParentFrame="BoneChassis_cdt" />
-            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.6" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
-            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.6" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.8" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
+            <Flare AspectRatio="1.4" Color="g(255; 255; 255) x 0.8" ColorMultAtDay="0.6" Dir="(1; 0; 0)" DirAngle="135" Reflections="true" Size="0.3" SizeMultAtDay="0.5" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
             <Flare AspectRatio="2.0" Color="g(220; 255; 255) x 0.3" ColorMultAtDay="0.1" Dir="(1; 0; 0)" DirAngle="45" Size="0.4" Texture="sfx/flare_line__s_d.tga" Pos="(2.27; 1.065; -0.700)" ParentFrame="BoneChassis_cdt" />
             <Flare AspectRatio="2.0" Color="g(220; 255; 255) x 0.3" ColorMultAtDay="0.1" Dir="(1; 0; 0)" DirAngle="45" Size="0.4" Texture="sfx/flare_line__s_d.tga" Pos="(2.27; 1.065; 0.700)" ParentFrame="BoneChassis_cdt" />
         </HeadLight>
@@ -84,7 +84,7 @@
         <WinchSocket Pos="(-2.037; 0.644; -0.449)" />
         <WinchSocket Pos="(-2.037; 0.644; 0.449)" />
         <WinchSocket Pos="(-2.037; 0.509; 0.0)" />
-        <UiDesc UiDesc="Bring You Money" UiIcon30x30="scoutVehicleImg30" UiIcon40x40="scoutVehicleImg" UiIcon576x640="leopard5_store_pic" UiIcon576x640Bw="leopard5_store_bw_pic" UiName="BYD Leopard5" />
+        <UiDesc UiDesc="Bring You Money" UiIcon30x30="scoutVehicleImg30" UiIcon40x40="scoutVehicleImg" UiIcon576x640="leopard5_store_pic" UiIcon576x640Bw="leopard5_store_bw_pic" UiName="3YƆ Leopard5" />
         <AddonSockets >
             <Socket Names="ScoutMetalDetector" Offset="(0.359; 3.629; 0)" ParentFrame="BoneBody_cdt" InCockpit="true">
                 <ExtraParent Offset="(-1; -1; 0)" Frame="BoneBody_cdt"/>
