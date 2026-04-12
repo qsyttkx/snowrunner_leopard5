@@ -84,7 +84,7 @@
         <WinchSocket Pos="(-2.037; 0.644; -0.449)" />
         <WinchSocket Pos="(-2.037; 0.644; 0.449)" />
         <WinchSocket Pos="(-2.037; 0.509; 0.0)" />
-        <UiDesc UiDesc="Bring You Money" UiIcon30x30="scoutVehicleImg30" UiIcon40x40="scoutVehicleImg" UiIcon576x640="leopard5_store_pic" UiIcon576x640Bw="leopard5_store_bw_pic" UiName="3YƆ Leopard5" />
+        <UiDesc UiDesc="Bring You Money" UiIcon30x30="scoutVehicleImg30" UiIcon40x40="scoutVehicleImg" UiIcon576x640="leopard5_store_pic" UiIcon576x640Bw="leopard5_store_bw_pic" UiName="Leopard5" />
         <AddonSockets >
             <Socket Names="ScoutMetalDetector" Offset="(0.359; 3.629; 0)" ParentFrame="BoneBody_cdt" InCockpit="true">
                 <ExtraParent Offset="(-1; -1; 0)" Frame="BoneBody_cdt"/>
