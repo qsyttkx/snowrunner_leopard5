@@ -1,0 +1,9 @@
+<TruckSet>
+    <Truck Name="leopard5">
+        <CustomizationPreset Id="1" MaterialOverrideName="skin_blue"/>
+        <CustomizationPreset Id="2" MaterialOverrideName="skin_gold"/>
+        <CustomizationPreset Id="3" MaterialOverrideName="skin_gray"/>
+        <CustomizationPreset Id="4" MaterialOverrideName="skin_white"/>
+        <CustomizationPreset Id="5" MaterialOverrideName="skin_tech" IsSpecialSkin="true"/>
+    </Truck>
+</TruckSet> 
