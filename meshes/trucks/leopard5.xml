@@ -1,10 +1,10 @@
 <CombineXMesh>
     <MaterialOverrides>
-        <MaterialOverride AlbedoMap="trucks/leopard5_body_blue__d.tga" EmissiveMap="trucks/leopard5_body__em_d.tga" ShadingMap="trucks/leopard5_body__sh_d.tga" Name="skin_blue" TargetMaterialName="body"/>
-        <MaterialOverride AlbedoMap="trucks/leopard5_body_gold__d.tga" EmissiveMap="trucks/leopard5_body__em_d.tga" ShadingMap="trucks/leopard5_body__sh_d.tga" Name="skin_gold" TargetMaterialName="body"/>
-        <MaterialOverride AlbedoMap="trucks/leopard5_body_gray__d.tga" EmissiveMap="trucks/leopard5_body__em_d.tga" ShadingMap="trucks/leopard5_body__sh_d.tga" Name="skin_gray" TargetMaterialName="body"/>
-        <MaterialOverride AlbedoMap="trucks/leopard5_body_white__d.tga" EmissiveMap="trucks/leopard5_body__em_d.tga" ShadingMap="trucks/leopard5_body__sh_d.tga" Name="skin_white" TargetMaterialName="body"/>
-        <MaterialOverride AlbedoMap="trucks/leopard5_body_tech__d.tga" EmissiveMap="trucks/leopard5_body__em_d.tga" ShadingMap="trucks/leopard5_body__sh_d.tga" Name="skin_tech" TargetMaterialName="body"/>
+        <MaterialOverride AlbedoMap="trucks/leopard5_body__d.tga" Name="skin_green" TargetMaterialName="body"/>
+        <MaterialOverride AlbedoMap="trucks/leopard5_body_blue__d.tga" Name="skin_blue" TargetMaterialName="body"/>
+        <MaterialOverride AlbedoMap="trucks/leopard5_body_gold__d.tga" Name="skin_gold" TargetMaterialName="body"/>
+        <MaterialOverride AlbedoMap="trucks/leopard5_body_white__d.tga" Name="skin_white" TargetMaterialName="body"/>
+        <MaterialOverride AlbedoMap="trucks/leopard5_body_tech__d.tga" Name="skin_tech" TargetMaterialName="body"/>
     </MaterialOverrides>
     <Material AlbedoMap="trucks/leopard5_body__d.tga" EmissiveMap="trucks/leopard5_body__em_d.tga" ShadingMap="trucks/leopard5_body__sh_d.tga" Name="body"/>
     <Material AlbedoMap="trucks/leopard5_chassis__d.tga" Name="chassis"/>

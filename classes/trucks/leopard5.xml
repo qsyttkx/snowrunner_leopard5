@@ -27,8 +27,8 @@
     </TruckData>
     <PhysicsModel Mesh="trucks/leopard5">
         <NetSync Legacy="false" />
-        <Body ModelFrame="BoneChassis_cdt" ImpactType="Truck" Mass="1750" NetSync="pv">
-            <Body ModelFrame="BoneBody_cdt" CenterOfMassOffset="(-0.5; -0.25; 0.0)" ImpactType="Truck" Mass="1550" NetSync="pv">
+        <Body ModelFrame="BoneChassis_cdt" ImpactType="Truck" Mass="3000" NetSync="pv">
+            <Body ModelFrame="BoneBody_cdt" CenterOfMassOffset="(-0.5; -0.25; 0.0)" ImpactType="Truck" Mass="3000" NetSync="pv">
                 <Constraint Type="Fixed" />
             </Body>
         </Body>
