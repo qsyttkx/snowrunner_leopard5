@@ -1,21 +1,21 @@
 <_templates Include="trucks" />
 <SuspensionSetVariants>
 	<SuspensionSet _template="Normal" BrokenWheelDamageMultiplier="1.0" CriticalDamageThreshold="0.51" DamageCapacity="150" Name="leopard5_suspension_default">
-		<Suspension Height="0.4" Strength="0.023" WheelType="front" SuspensionMin="-0.315" SuspensionMax="-0.075" BrokenSuspensionMax="-0.05" Damping="0.3" />
-		<Suspension Height="0.36" Strength="0.027" WheelType="rear" SuspensionMin="-0.265" SuspensionMax="-0.05" BrokenSuspensionMax="-0.025" Damping="0.3" />
+		<Suspension Height="0.46" Strength="0.03" WheelType="front" SuspensionMin="-0.315" SuspensionMax="-0.075" BrokenSuspensionMax="-0.05" Damping="0.3" />
+		<Suspension Height="0.45" Strength="0.03" WheelType="rear" SuspensionMin="-0.265" SuspensionMax="-0.05" BrokenSuspensionMax="-0.025" Damping="0.3" />
 		<GameData Price="10" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 			<UiDesc UiDesc="UI_SUSPENSION_DEFAULT_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_SUSPENSION_DEFAULT_NAME" />
 		</GameData>
 	</SuspensionSet>
 	<SuspensionSet _template="High" BrokenWheelDamageMultiplier="1.35" CriticalDamageThreshold="0.6" DamageCapacity="200" Name="leopard5_suspension_high">
-		<Suspension Damping="0.55" BrokenSuspensionMax="-0.025" Height="0.46" Strength="0.017" WheelType="front" SuspensionMin="-0.4" SuspensionMax="-0.1" />
+		<Suspension Damping="0.55" BrokenSuspensionMax="-0.025" Height="0.46" Strength="0.024" WheelType="front" SuspensionMin="-0.4" SuspensionMax="-0.1" />
 		<Suspension Damping="0.55" BrokenSuspensionMax="0.025" Height="0.43" Strength="0.024" WheelType="rear" SuspensionMin="-0.35" SuspensionMax="-0.075" />
 		<GameData Price="30" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 			<UiDesc UiDesc="UI_SUSPENSION_HIGH_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_SUSPENSION_HIGH_NAME" />
 		</GameData>
 	</SuspensionSet>
 	<SuspensionSet _template="Crawler" BrokenWheelDamageMultiplier="0.9" CriticalDamageThreshold="0.47" DamageCapacity="180" Name="leopard5_suspension_crawler">
-		<Suspension Damping="0.77" BrokenSuspensionMax="-0.075" Height="0.395" Strength="0.017" WheelType="front" SuspensionMin="-0.375" SuspensionMax="-0.05" />
+		<Suspension Damping="0.77" BrokenSuspensionMax="-0.075" Height="0.395" Strength="0.024" WheelType="front" SuspensionMin="-0.375" SuspensionMax="-0.05" />
 		<Suspension Damping="0.77" BrokenSuspensionMax="-0.05" Height="0.375" Strength="0.024" WheelType="rear" SuspensionMin="-0.325" SuspensionMax="-0.025" />
 		<GameData Price="50" UnlockByExploration="false" AddonUnlockByObjective="false" UnlockByRank="1">
 			<UiDesc UiDesc="UI_SUSPENSION_CRAWLER_DESC" UiIcon30x30="" UiIcon40x40="" UiName="UI_SUSPENSION_CRAWLER_NAME" />
